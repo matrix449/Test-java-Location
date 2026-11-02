@@ -1,5 +1,5 @@
+dao\LocationDAO.class
 conexion\conexionBD.class
 modelo\Location.class
 prueba\pruebaconexion.class
-dao\locationDAO.class
 vista\LocationVista.class

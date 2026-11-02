@@ -1,6 +1,6 @@
 package vista;
 
-import dao.locationDAO;
+import dao.LocationDAO;
 import modelo.Location;
 import java.util.ArrayList;
 import java.time.LocalDateTime;
@@ -10,7 +10,7 @@ import java.awt.*;
 
 public class LocationVista extends JFrame {
 
-    private locationDAO dao = new locationDAO();
+    private LocationDAO dao = new LocationDAO();
 
     // Tabla
     private JTable tablaLocation;

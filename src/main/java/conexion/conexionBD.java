@@ -6,12 +6,12 @@ import java.sql.SQLException;
 
 public class conexionBD {
 
-    private static final String URL ="jdbc:mariadb://ies9021.edu.ar:3306/ies9021_SCS";
-    private static final String USER = "ies9021_userdb";
-    private static final String PASSWORD = "Xsw23edc.2025";
+    // Corregido de jdbc:mysql a jdbc:mariadb
+    private static final String URL ="jdbc:mariadb://localhost:3305/casosdeprueba";
+    private static final String USER = "root";
+    private static final String PASSWORD = "";
 
     public static Connection getConexion() {
-
         Connection con = null;
 
         try {

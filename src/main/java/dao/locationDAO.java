@@ -5,8 +5,8 @@ import modelo.Location;
 import java.sql.*;
 import java.util.ArrayList;
 
-public class locationDAO {
-
+public class LocationDAO {
+    
     // LISTAR
     public ArrayList<Location> listar() {
 
